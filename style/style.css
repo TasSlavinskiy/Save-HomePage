@@ -1,0 +1,56 @@
+body {
+    width: 100%;
+    font-family: 'DejaVu Sans Mono', monospace;
+}
+nav {
+    font-size: 0.9em;
+}
+ul {
+    list-style: none;
+    margin: 0;
+}
+ul li {
+    display: inline-flex;
+    margin: 6px 0 0 43px;
+    letter-spacing: -1px;
+    text-shadow: 0 2px 2px #b8b4b3;
+    padding: 3px;
+    transition: top 1s;
+}
+ul li:hover {
+    border-bottom: solid 2px #edbfff;
+    transition: top 1s;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+#page {
+    width: 100%;
+    height: auto;
+}
+.banner {
+    width: 100%;
+    background: url(../image/background-01.jpg) no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    min-width: 320px;
+    padding: 70px 0 70px 0;
+}
+.logo {
+    font-size: 2em;
+    letter-spacing:-2px;
+    margin-right: 50px;
+    text-shadow: 0 2px 2px #b8b4b3;
+}
+.logo a:last-child {
+    color: red;
+    text-shadow:none;
+}
