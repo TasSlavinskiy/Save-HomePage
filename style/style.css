@@ -81,7 +81,8 @@ header {
     justify-content: center;
     margin: 0 auto;
 }
-.item_info {
+.item_slide {
+    max-width: 960px;
     display: none;
 }
 .active {
@@ -91,5 +92,21 @@ header {
     flex: auto;
 }
 .slider {
+     display: flex;
      flex: 2 1 20%;
+}
+.description {
+     width: 50%;
+     display: inline-block;
+}
+.item_info {
+    width: 50%;
+    float: right;
+}
+.item_info>img {
+    float: right;
+    margin-top: -60px;
+}
+.icon_img {
+        margin: 50% 35%;
 }
